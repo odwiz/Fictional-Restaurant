@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iya Restaurant</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!-- Navigation -->
+
+    <nav class="bg-gray-900 text-white sticky top-0 z-50 shadow">
+      <div
+        class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4"
+      >
+        <h1 class="text-2xl font-bold">Iya Restaurant</h1>
+
+        <ul class="flex gap-8">
+          <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="#menu" class="hover:text-yellow-400">Menu</a></li>
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section
+      id="home"
+      class="h-screen bg-cover bg-center flex items-center justify-center"
+      style="
+        background-image: url(https://t3.ftcdn.net/jpg/08/45/51/62/360_F_845516296_gvuCBOQNp1kyCTKIX5Thi7ff1xQ0Jifj.jpg);
+      "
+    >
+      <div class="bg-black/60 w-full h-full flex items-center justify-center">
+        <div class="text-center text-white px-4">
+          <h1 class="text-5xl md:text-7xl font-bold mb-6">
+            Delicious Food Made Fresh
+          </h1>
+
+          <p class="text-xl mb-8">Taste the difference with every bite.</p>
+
+          <a
+            href="#menu"
+            class="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-lg text-lg font-semibold transition"
+          >
+            View Menu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+
+    <section id="menu" class="py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12">Our Menu</h2>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRygAUDFDCgYm8o_CpWyhlP4fTh6iPHuxOWLGNQZyMbpUryxrp8fbXqXF7O1VgvC5zPCfSfKixGk8DS2ne6pTT2AmP4P0d6RyYwPL16gA&s=10"
+              class="w-full h-60 object-cover"
+              alt=""
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-3">Ewa Agoyin</h3>
+
+              <p class="text-gray-600 mb-4">
+                Soft, mashed beans paired with a dark, deeply flavorful spicy
+                caramelized onion stew.
+              </p>
+
+              <h4 class="text-yellow-500 text-2xl font-bold">₦500</h4>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <img
+              src="https://www.realthekitchenandbeyond.com/wp-content/uploads/2016/10/Rice-and-Beans-Tasty.jpg"
+              class="w-full h-60 object-cover"
+              alt=""
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-3">Jollof Rice & Beans</h3>
+
+              <p class="text-gray-600 mb-4">
+                Rice and beans cooked together in rich tomato sauce with smoky
+                pepper stew.
+              </p>
+
+              <h4 class="text-yellow-500 text-2xl font-bold">₦300</h4>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <img
+              src="https://i.ytimg.com/vi/LnfeYXsFi2Y/hq720.jpg"
+              class="w-full h-60 object-cover"
+              alt=""
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-3">Yam & Egg Stew</h3>
+
+              <p class="text-gray-600 mb-4">
+                Premium boiled yam served with delicious egg stew.
+              </p>
+
+              <h4 class="text-yellow-500 text-2xl font-bold">₦200</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDa30bKazYE6QUY8MOiGMs05oXjCsP3uAXsw&s"
+            class="rounded-xl shadow-lg w-full"
+            alt=""
+          />
+
+          <div>
+            <h2 class="text-4xl font-bold mb-6">About Us</h2>
+
+            <p class="text-lg text-gray-600 leading-8">
+              Welcome to Iya Restaurant, where every meal is prepared with
+              passion and the freshest ingredients. We believe great food brings
+              people together. Our chefs combine traditional recipes with modern
+              flavors to create unforgettable dining experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="py-20">
+      <div class="max-w-3xl mx-auto px-6">
+        <h2 class="text-4xl text-center font-bold mb-10">Contact Us</h2>
+
+        <form class="space-y-6">
+          <div>
+            <label class="block mb-2 font-semibold"> Name </label>
+
+            <input
+              type="text"
+              placeholder="Enter your name"
+              class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 font-semibold"> Email </label>
+
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 font-semibold"> Message </label>
+
+            <textarea
+              rows="5"
+              placeholder="Write your message"
+              class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            ></textarea>
+          </div>
+
+          <button
+            class="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-lg font-semibold transition"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="max-w-7xl mx-auto text-center">
+        <p class="mb-4">© 2026 Iya Restaurant. All Rights Reserved.</p>
+
+        <div class="space-x-6 text-xl">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+
+          <a href="#"><i class="fab fa-instagram"></i></a>
+
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
